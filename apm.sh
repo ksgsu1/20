@@ -1,4 +1,6 @@
 #!/bin/sh  -- vi apm.sh
+sudo apt install git
+
 sudo rm /var/lib/apt/lists/lock 
 sudo rm /var/cache/apt/archives/lock 
 sudo rm /var/lib/dpkg/lock* 
